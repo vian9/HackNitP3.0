@@ -1,24 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title></title>
-    <meta charset="utf-8" />
-
-    <!-- Reference to the Bing Maps SDK -->
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[Ao5KfUFB_tGn5q3gb1Talp-DF1DpbkcuQapmuhfxnoEuKU-eSWqQczcH533mnnCh]' 
-            async defer></script>
-    
-    <script type='text/javascript'>
-    function GetMap()
-    {
-        var map = new Microsoft.Maps.Map('#myMap');
-
-        //Add your post map load code here.
-    }
-    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="themes/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="themes/assets/css/carousel.css" rel="stylesheet">
+    <link rel="icon" href="themes/assets/images/logo.png" type="image/png">
+    <title>Our Members</title>
 </head>
 <body>
-    <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
+</script>
+<div class="navbar-wrapper">
+  <div class="container">
+
+    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">The Turing's Club</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contactus.html">Contact us</a></li>
+            <li><a href="OurMembers.html">Our Team</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Mechanic</a></li>
+                <li><a href="#">Plumber</a></li>
+                <li><a href="#">Electrician</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Special Servies</li>
+                <li><a href="#">Computer Repair(hardware and Softwares)</a></li>
+                <li><a href="#">Home Appliance Repairing</a></li>
+                <li><a href="#">Mechanic</a></li>
+                <li><a href="#">Barbar</a></li>
+              </ul>
+            </li>
+          <li><a href="#Login">Login</a></li>
+          <li><a href="#Service">Find Services</a></li>
+          <li><a href="payment.html">Pay Online</a></li>
+            
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<section class="text-gray-600 body-font relative">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
+        <p style="font-size: 20px;" class="lg:w-2/3 mx-auto leading-relaxed text-base">In order to get any information like how to join our network and how to hire or any other query feel free to conct us.</p>
+      </div>
+      <div class="lg:w-1/2 md:w-2/3 mx-auto">
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+              <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+          </div>
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+              <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <div class="relative">
+              <label for="message" class="leading-7 text-sm text-gray-600">Message or Query</label>
+              <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
+          </div>
+          <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+            <a class="text-indigo-500">theturingclub@gmail.com</a>
+            <p class="leading-normal my-5">The Turing's Club 
+              <br>NIT Patna, Bihar-800005 
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="introSection">
+    <div class="container">
+    <div class="row">
+    <div class="col-lg-5">
+    <h3>Welcome to Forrevy</h3>
+    <p>
+    Forrevy is a digital platform for local service businesses in India, matching 20+ consumers with 500 service professionals across 200 categories in about 40 cities.
+        We focuses on expert services clustered around Home, Life and Self and where the user need is customized. 
+        Using technology and domain intelligence, the platform seeks to understand the user need in detail and matches it to verified service professionals who are profiled.
+        The service is free to use for consumers and service professionals pay the platform for performance in the form of verified, matched service requests.
+    </p>
+    </div>
+    
+    <div class="col-lg-4">
+    <h3></h3>
+    <p>
+    
+    </p>
+    
+    </div>
+    
+    <div class="col-lg-3">
+    <h3>Our Presence</h3>
+    <p>
+    New Delhi Mumbai Bangalore Chennai Kolkata Patna Ahmedabad Indore Lucknow Ranchi Pune Bhopal Bhubaneshwar Jaipur Dehradun Goa Raipur
+    
+    </p>
+    
+    </div>
+    
+    </div>
+    </div>
+  </div>
+
+  <!-- /END THE FEATURETTES -->
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+    <p class="pull-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2021 The Turing's Club made for Hacknitp 3.0 under the theme employbility</p>
+    </div>
+  </footer>
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="themes/dist/js/bootstrap.min.js"></script>
+<script src="themes/assets/js/holder.js"></script>
 </body>
 </html>
