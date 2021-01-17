@@ -8,10 +8,14 @@
     <link href="themes/assets/css/carousel.css" rel="stylesheet">
     <link rel="icon" href="themes/assets/images/logo.png" type="image/png">
     <link href="themes/assets/css/myform.js" rel="javascript">
+      <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
     <title>Our Members</title>
 </head>
 <body>
 <!-- modify this form HTML and place wherever you want your form -->
+<div id="myform">
 
 <form id="my-form"
   action="https://formspree.io/f/xvovlpjq"
@@ -24,7 +28,11 @@
   <button id="my-form-button">Submit</button>
   <p id="my-form-status"></p>
 </form>
-
+</div>
+    
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+     <script src="myform.js"></script>
 <!-- Place this script at the end of the body tag -->
 
 <script>
